@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Social Connect Twitter</title>
+		<style>
+			body {
+				width: 300px;
+				padding: 20px;
+				font-family: Arial, sans-serif;
+				text-align: center;
+			}
+
+			h1 {
+				font-size: 24px;
+				margin-bottom: 20px;
+			}
+
+			p {
+				margin-bottom: 20px;
+			}
+
+			#toggleButton {
+				padding: 10px 20px;
+				font-size: 16px;
+				background-color: #1da1f2;
+				color: #fff;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+
+			#toggleButton:hover {
+				background-color: #0c87b8;
+			}
+		</style>
+		<script src="popup.js"></script>
+	</head>
+	<body>
+		<h1>Social Connect Twitter</h1>
+		<p>
+			This extension detects if a user is on a Twitter profile and calls
+			an API to check registration status.
+		</p>
+		<button id="toggleButton">Activate</button>
+	</body>
+</html>
